@@ -1,0 +1,30 @@
+
+Oppgavesett 1 
+OPPGAVE 3 (Første innlevering 26.01.2018, 23:59)
+Av Bakerste Benk
+
+1. Programmer i go utføres med kommandoet go run <filnavn> Da genereres det ingen objektfil (en fil som man kan utføre på en platform , og hvis format er platformavhenging). Hvis man ønsker å generere 1 en objektfil, er kommandoet go build <filnavn>. Finn ut hva  objektfiler heter for de mest brukte platformene (Unix/Linux, MS Windows, Mac OS X)! Hvorfor, etter din mening, har disse platformene så forskjellige objektfil-formater?
+
+Objektfilene til Windows heter PE.
+Objektfilene til Mac OS heter Mach-O
+Objektfilene til Linux heter ELF
+
+Vi tror disse plattformene har forskjellige objektfil-formater fordi plattformene har forskjellige måter å lese og kjøre programmer på
+
+
+2. Hvilke forskjeller ser du i forhold til programmeringsspråket Java? (forutsetter at alle er kjent med Java, hvis ikke, så kan man også sammenligne med andre programmeringsspråk)
+
+Forskjellene mellom Java og Golang programmeringsspråkene: 
+
+- Kompilatoren:
+I Golang så gjør kompilatoren at det oversetter kode til en objekt-fil direkte, men dette     kan variere fra forskjellig operativsystemer som blir brukt.
+I Java derimot så gjør kompilatoren oversettelse til java bytecode slik at den kan utføres av et operativsystem, for så å bli oversatt til det aktuelle objektfil-formatet.
+- Java har nøkkelordene Public og Private, mens det har Golang ikke. I Golang blir det brukt stor forbokstav å lage funksjoner.
+-  Java bruker Virtual Machine (VM) til å kjøre kode, som gjør at det tar lengre tid å kompilere, i forhold til Golang.
+- Det er ikke noe nødvendig med semikolon i programmeringsspråket Golang. Om ønskelig så kan de brukes, men det er ikke nødvendig som sagt. Mens med java så er det helt nødvendig. 
+- Når det gjelder variabel-deklarasjon, så vil Java kreve at en må spesifisere type for variabelen, og i Golang derimot så antar kompilatoren typen om den ikke er beskrevet på forhånd. 
+- Golang har en del egenskaper som en finner i andre forskjellig programmeringsspråk som er objekt-orienterte og noen eksempler kan være C++, Python, Ruby, Simula, Java og listen forsetter, men Golang er ikke objekt orientert. 
+- Java er et “Enterprise Development Language” mens Golang er et “System programming Language”.
+
+
+
