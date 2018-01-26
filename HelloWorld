@@ -1,3 +1,4 @@
+
 package main
 
 import "fmt"
@@ -6,5 +7,6 @@ func main() {
 	fmt.Println("Hello, World")
 	fmt.Println("Marthe Løvsland")
     fmt.Println("Martin")
+    fmt.Println("Anette")
 }
 
