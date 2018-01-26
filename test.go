@@ -10,6 +10,4 @@ func main() {
 	fmt.Println("Anette")
 	fmt.Println("Erik")
 	fmt.Println("Nicolai")
-
-
 }
