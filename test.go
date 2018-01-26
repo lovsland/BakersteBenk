@@ -11,5 +11,6 @@ func main() {
 	fmt.Println("Erik")
 	fmt.Println("Nicolai")
 	fmt.Println("Nijjjj")
+	fmt.Println("Nicolajjjji")
 
 }
