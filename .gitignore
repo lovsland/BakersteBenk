@@ -4,6 +4,12 @@
 *.so
 *.dylib
 
+# IntelliJ
+.idea
+*.iws
+*.iml
+*.ipr
+
 # Test binary, build with `go test -c`
 *.test
 
