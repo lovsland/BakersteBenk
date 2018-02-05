@@ -13,6 +13,7 @@
 *.xml
 =======
 >>>>>>> 0fd24bb036a927eae0fc2275c2f70050a3921f03
+*.yml
 
 # Test binary, build with `go test -c`
 *.test
