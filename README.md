@@ -118,5 +118,9 @@ Average-case big-O er derimot O(n log ), noe som vil si at tidsbruken vil øke i
 
 
 <br><br>
+<h3>Oppgave 3</h3>
+
+
+<br><br>
 <h3>Oppgave 4</h3>
 
