@@ -1,4 +1,4 @@
-package iso__test
+package iso
 
 import ("testing"
 "fmt"
