@@ -118,3 +118,4 @@ Average-case big-O er derimot O(n log ), noe som vil si at tidsbruken vil øke i
 
 
 Oppgave 4
+
