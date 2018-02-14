@@ -15,7 +15,13 @@ LAYOUT.
 
 Oppgave 1
 
-
+| Binær        | Hexadesimal           | Desimal  |
+| ------------- |:-------------:| -----:|
+| 1101      | 0xD | 13 |
+| 110111101010      | DEA      |   3562  |
+| 1010111100110100 | 0xAF34      |    44852  |
+| 1111111111111111       | FFFF       |   65535 |
+| 10001011110001010 | 1178A       |    71562 |
 
 A)	 Beskriv kort metode for å gå fra binære tall til hexadesimale tall og motsatt. Beskriv kort metoden for å gå fra binære tall til desimaltall og motsatt.
 En veldig enkel metode for å gå fra hexadesimale tall til bin, og omvendt. (Det lønner seg å lære seg å telle seg til 15 i binær for det første, og det gjøres følgende:
