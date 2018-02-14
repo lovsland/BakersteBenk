@@ -120,6 +120,10 @@ Average-case big-O er derimot O(n log ), noe som vil si at tidsbruken vil øke i
 <br><br>
 <h3>Oppgave 3</h3>
 
+Programmet bruker på min PC når det kjører: 30% cpu kraft og 523mb RAM.
+Programmet funker slik at etter man runner programmet fra terminal så starter den evige loopen mens programmet venter på et SIGINT signal. Etter motatt signal shutter programmet ned.
+Knotet mye, men fant til slutt en kombinasjon som gjorde at den evige for-loopen ble avsluttet etter mottatt SIGINT signal. Overkompliserte ting litt i starten, så da fikk jeg ikke programmet til å ta opp SIGINT signalet og stoppe. Etter litt research fikk jeg det til å fungere. 
+
 
 <br><br>
 <h3>Oppgave 4</h3>
