@@ -13,6 +13,65 @@ LAYOUT.
  
 ### OPPGAVER
 
+Oppgave 1
+
+
+
+A)	 Beskriv kort metode for å gå fra binære tall til hexadesimale tall og motsatt. Beskriv kort metoden for å gå fra binære tall til desimaltall og motsatt.
+En veldig enkel metode for å gå fra hexadesimale tall til bin, og omvendt. (Det lønner seg å lære seg å telle seg til 15 i binær for det første, og det gjøres følgende:
+
+Om til binære:<br>
+C   	0 		F		F		E		E<br>
+1000	0000	1111	1111	1110	1110
+
+Og andre veien:
+
+11011110101011011011111011101111 om til hexadesimale tall:
+Man deler tallet opp i deler på 4 bit:
+
+1101	1110	1010	1101	1011	1110	1110	1111<br>
+D	    E	    A	    D	    B	    E	    E	    F
+
+
+
+B)	Beskriv kort metoden for å gå fra hexadesimale tall til desimaltall og motsatt.
+En kul metode her for å få heksadesimale tall om til desimaltall er følgende:
+Liten oversikt hvordan en oversetter bokstavene til tall.
+
+Heksadesimal	Desimal
+A			10
+B			11
+C			12
+D			13
+E			14
+F			15
+
+Eks. BEEF16 
+Posisjon	Siffer	Utregning
+0		F	15∗160 =15∗0=1510 
+1		E	14∗161 =14∗16=22410
+2		E	14∗162 = 14∗256 = 358410 
+3		B	11∗163 = 11∗4096 = 4505610 
+Så summen her av disse verdiene er følgende:
+15 + 224 + 358 + 45056 = 4887910 = BEEF16 
+For å gå desimaltall til et heksadesimalt tall er dette en måte å regne det ut:
+Hvis vi vil finne 3510 på hexadesimal form, 
+Hexadesimale tall har 16 tegn. Det er en regel å huske. Vi tar heltallsdivisjon og alt samles på rest til svaret ender på 0. Et eks. Dette hexadesimal tallet 3510 skal gjøres om til desimaltall. 
+
+35 : 16 = 2, med rest lik 3
+2 : 16 = 0, med rest lik 2
+
+Svaret For å finne svare så må man lese av rest oppover, og her er svaret: 
+3510 = 2316
+
+
+Kilder:
+http://mjelde.blogspot.no/2014/05/omregning-mellom-tallsystemer.html	
+https://www.uio.no/studier/emner/matnat/ifi/INF1000/h15/undervisningsmateriale/andre-tallsystemer-(matematisk).pdf
+
+
+
+
 
 Oppgave 2C:
 
@@ -52,3 +111,4 @@ Average-case big-O er derimot O(n log ), noe som vil si at tidsbruken vil øke i
 
 
 
+Oppgave 4
