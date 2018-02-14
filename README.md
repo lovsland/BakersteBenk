@@ -13,7 +13,7 @@ LAYOUT.
  
 ### OPPGAVER
 
-Oppgave 1
+<h3>Oppgave 1</h3>
 
 | Binær        | Hexadesimal           | Desimal  |
 | ------------- |:-------------:| -----:|
@@ -79,7 +79,8 @@ https://www.uio.no/studier/emner/matnat/ifi/INF1000/h15/undervisningsmateriale/a
 
 
 
-Oppgave 2C:
+<br><br>
+<h3>Oppgave 2C:</h3>
 
 Presentasjon av benchmark-testresultater utført på opprinnelig bubblesort algoritme, modifisert bubblesort algoritme og quicksort-algoritme.
 
@@ -116,6 +117,6 @@ Quicksort-algoritmen har også en worst-case big-O på O(N²), men som man ser a
 Average-case big-O er derimot O(n log ), noe som vil si at tidsbruken vil øke i begynnelsen for deretter å flate ut ettersom mengden data øker. Quicksort-algoritmen er dermed en algoritme som er svært effektiv når store datasett skal behandles.
 
 
-
-Oppgave 4
+<br><br>
+<h3>Oppgave 4</h3>
 

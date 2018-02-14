@@ -20,7 +20,6 @@ func IterateOverASCIIStringLiteral(sl string) {
 // Kode for Oppgave 4b
 
 func ExtendedASCIIText() {
-	//a1 := []byte("\x80\xf7\xbe\x64\x6f\x6c\x6c\x61\x72")
 	a1 := []byte("\x22\x80\xf7\xbe\x64\x6f\x6c\x6c\x61\x72\x22")
 	for i := 0; i < len(a1); i++ {
 		fmt.Printf("%c ", a1[i])
