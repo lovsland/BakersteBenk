@@ -1,51 +1,33 @@
-package main
+package algorithms
+
 // Les https://en.wikipedia.org/wiki/Bubble_sort
+func Bubble_sort_modified(list []int) {
 
-import(
-	"fmt"
-	"math/rand"
-	"time"
+	N := len(list)
+	var i int
 
-)
-func main() {
-	slice:=generateSlice(20)
-	fmt.Println("\n---Unsorted---\n\n", slice)
-	bubble_sort_modified(slice)
-	fmt.Println("\n---Sorted---\n\n", slice, "\n")
+	for i = 0; i < N; i++ {
+	sweep(list, i)
+
 	}
-// Generates a slice of size, size filled with random numbers
-func generateSlice(size int) []int{
-
-	slice:=make([]int, size, size)
-	rand.Seed(time.Now().UnixNano())
-	for i:=0; i < size; i++ {
-		slice[i] = rand.Intn(999) - rand.Intn(999)
 	}
-	return slice
-	}
+	func sweep(numbers []int, prevPasses int) {
+	var N int = len(numbers)
+	var firstIndex int = 0
+	var secondIndex int = 1
 
-
-func bubble_sort_modified(items []int){
-
-	var (
-		n = len(items)
-		sorted = false
-	)
-
-for !sorted{
-	swapped :=false
-	for i:=0; i<n-1;i++ {
-		if items[i] > items[i+1] {
-			items[i+1], items[i] = items[i], items[i+1]
-			swapped = true
-		}
-	}
-	if !swapped {
-		sorted = true}
-		}
-		n=n -1
+	for secondIndex < (N - prevPasses) {
+	var firstNumber int = numbers[firstIndex]
+	var secondNumber int = numbers[secondIndex]
+	if firstNumber > secondNumber {
+	numbers[firstIndex] = secondNumber
+	numbers[secondIndex] = firstNumber
 	}
 
+	firstIndex++
+	secondIndex++
+	}
+	}
 
 
 
@@ -90,4 +72,3 @@ func qsort(values []int, l int, r int) {
 	qsort(values, l, i-2)
 	qsort(values, i, r)
 }
-
