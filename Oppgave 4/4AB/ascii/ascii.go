@@ -11,15 +11,9 @@ const AsciiExtended = "\x80\x81\x82\x83\x84\x85\x86\x87\x88\x89\x8a\x8b\x8c\x8d\
 	"\xec\xed\xee\xef\xf0\xf1\xf2\xf3\xf4\xf5\xf6\xf7\xf8\xf9\xfa\xfb\xfc\xfd\xfe\xff"
 
 //Kode for oppgave 4a
-//func IterateOverASCIIStringLiteral(sl string) {
-//	for i := 0; i < len(sl); i++ {
-//		fmt.Printf("%X %c %b\n", sl[i], sl[i], sl[i])
-//	}
-//}
-
 func IterateOverASCIIStringLiteral(sl string) {
-	for i := 128; i <= 255; i++ {
-		fmt.Printf("%X %c %b\n", i, i, i)
+	for i := 0; i < len(sl); i++ {
+		fmt.Printf("%X %c %b\n", sl[i], sl[i], sl[i])
 	}
 }
 
@@ -27,7 +21,7 @@ func IterateOverASCIIStringLiteral(sl string) {
 
 func ExtendedASCIIText() {
 	//a1 := []byte("\x80\xf7\xbe\x64\x6f\x6c\x6c\x61\x72")
-	a1 := []byte("\x80\xf7\xbe\x64\x6f\x6c\x6c\x61\x72")
+	a1 := []byte("\x22\x80\xf7\xbe\x64\x6f\x6c\x6c\x61\x72\x22")
 	for i := 0; i < len(a1); i++ {
 		fmt.Printf("%c ", a1[i])
 	}
