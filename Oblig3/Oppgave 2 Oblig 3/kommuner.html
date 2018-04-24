@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6" align="center">
+            <div class="container">
+                <h2>Kommuner i Norge</h2>
+               <b>https://hotell.difi.no/api/json/difi/geo/kommune</b></p>
+                <br>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Navn</th>
+                        <th>Kommunenr</th>
+                        <th>Fylke</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{range $.Entries}}
+                    <tr>
+                        <th>{{.Navn}}</th>
+                        <th>{{.Kommunenr}}</th>
+                        <th>{{.Fylke}}</th>
+                    </tr>
+                    {{end}}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+</body>
+</head>
+</html>
