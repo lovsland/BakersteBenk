@@ -8,7 +8,10 @@ import (
 
 func main() {
 
-	conn, _ := net.Dial("tcp", ":17")
+	conn, err := net.Dial("tcp", ":17")
+	if err != nil {
+		fmt.Println(err)
+	}
 
 	message, _ := bufio.NewReader(conn).ReadString('\n')
 	fmt.Print(message)

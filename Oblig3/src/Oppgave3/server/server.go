@@ -11,11 +11,11 @@ func main() {
 	go udp()
 
 	for {
-		time.Sleep(40000000)
+		time.Sleep(10000000)
 	}
 }
 
-const quoteOfTheDay = "Hurr durr durr"
+const quoteOfTheDay = "Hei hei"
 
 func tcp() {
 
