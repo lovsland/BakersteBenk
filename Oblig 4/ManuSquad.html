@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<img src="https://i.imgur.com/WMhnVij.jpg" alt="Manchester united" width="2000" height="300">
+
+</body>
+</html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Fotball</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container-fluid">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
+    </head>
+    <body>
+
+
+
+
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-8" align="center">
+            <div class="container">
+                <h2>Manchester United lag</h2>
+
+                <form action="http://localhost:8080/ManUnited">
+                    <input type="submit" value="Gå tilbake" />
+                </form>
+
+                <form action="http://localhost:8080/fotball">
+                    <input type="submit" value="Til forsiden" />
+                </form>
+
+                <br>
+                <table class="table table-striped">
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>JerseyNumber</th>
+                        <th>DateOfBirth</th>
+                        <th>Nationality</th>
+                        <th>ContractUntil</th>
+
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {{range $.Players}}
+                    <tr>
+                        <th>{{.Name}}</th>
+                        <th>{{.Position}}</th>
+                        <th>{{.JerseyNumber}}</th>
+                        <th>{{.DateOfBirth}}</th>
+                        <th>{{.Nationality}}</th>
+                        <th>{{.ContractUntil}}</th>
+                    </tr>
+                    {{end}}
+                    </tbody>
+                </table>
+            </div>
+        </
+        <div class="col-md-2"></div>
+    </div>
+</div>
+</body>
+</html>
